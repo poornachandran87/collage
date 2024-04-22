@@ -1,7 +1,5 @@
 import React from 'react'
-import Navbar from './layouts/Navbar'
-import Imagecard from './layouts/Imagecard'
-import StarRating from './layouts/StarRating';
+
 
 
 
@@ -16,11 +14,7 @@ const Home = () => {
         
         
       </div>
-      <div className='m-5'>
-      <Imagecard />
-      </div>
-      <StarRating rating={3.7} />
-      <Navbar />
+      
     </div>
   ) 
 }
